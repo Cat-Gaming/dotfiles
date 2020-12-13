@@ -15,6 +15,9 @@ alias vim=nvim
 export MSBuildSDKsPath=$( echo /usr/share/dotnet/sdk/3.*/Sdks );
 export EDITOR=nvim
 
+# copy .zshrc to github repo
+cp ~/.zshrc ~/code/dotfiles/
+
 # starts neofetch at prompt
 neofetch
 
