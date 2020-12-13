@@ -581,3 +581,5 @@ awful.spawn.with_shell("nitrogen --restore") -- Desktop Background
 -- Redshift
 awful.spawn.with_shell("redshift -l geoclue2")
 
+-- Copy config on startup to git directory
+awful.spawn.with_shell("cp ~/.config/awesome/*.lua ~/code/dotfiles/awesome")
