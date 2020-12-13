@@ -12,7 +12,6 @@ alias ls='exa -la'
 alias godot='~/Godot.64'
 alias vim=nvim
 
-export MSBuildSDKsPath=$( echo /usr/share/dotnet/sdk/3.*/Sdks );
 export EDITOR=nvim
 
 # copy .zshrc to github repo
