@@ -14,3 +14,8 @@ cp *.lua ~/.config/awesome
 ```
 Then you're done!
 
+# Dependencies
+Arch Linux Applications:
+```
+yay -S awesome pcmanfm dmenu discord firefox alacritty code exa neovim zsh-theme-powerlevel10k ttf-meslo-nerd-font-powerlevel10k
+```
